@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Retrofit2.Droid</id>
+       <version>2.1.0</version>
+        <description>Xamarin Binding Library - Square Retrofit2</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+        <!-- Optional elements -->
+        <title>Naxam - Square Retrofit2</title>
+        <summary>Xamarin Binding Library - Square Retrofit2</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xam-android-retrofit2</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, Retrofit2</tags>
+        <dependencies>
+            <dependency id="Square.OkHttp3" version="3.5.0" />
+            <dependency id="Square.OkIO" version="1.11.0" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Retrofit2.Droid/bin/Release/Naxam.Retrofit2.Droid.dll" target="lib/MonoAndroid10/Naxam.Retrofit2.Droid.dll" />
+    </files>
+</package>
