@@ -8,7 +8,6 @@
         <authors>Vu Duc Tuyen</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-
         <!-- Optional elements -->
         <title>Naxam - Square Retrofit2</title>
         <summary>Xamarin Binding Library - Square Retrofit2</summary>
@@ -17,7 +16,8 @@
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, Retrofit2</tags>
         <dependencies>
-            <!-- <dependency id="Naxam.SquareUp.OkHttp3" version="3.6.0" /> -->
+            <dependency id="Naxam.SquareUp.OkHttp3" version="3.6.0"  />
+            <dependency id="Square.OkIO" version="1.11.0" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
